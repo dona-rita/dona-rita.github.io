@@ -1,0 +1,24 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(/bower_components/roboto-googlefont/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(/bower_components/roboto-googlefont/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(/bower_components/roboto-googlefont/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(/bower_components/roboto-googlefont/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(/bower_components/roboto-googlefont/Roboto-Light.ttf);
+}

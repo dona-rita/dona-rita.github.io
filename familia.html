@@ -1,0 +1,34 @@
+<div class="modal-header">
+	<h4 class="modal-title">Família</h4>
+</div>
+<div class="modal-body">
+	<p>
+		Serviço personalizado, ideal para famílias com
+		residências grandes, que tenham doméstica mensalista e ainda sim precisam de suporte na
+		faxina ou em serviços específicos.
+	</p>
+	<p>
+		Clientes com famílias com mais de 4 integrantes, residências com 4 ou mais
+		suítes, que tenham ou não doméstica mensalista, é indicado que a faxina seja dividida em
+		dois dias de trabalho de oito horas cada ou seja contratada 2 faxineiras para o mesmo dia.
+		Para melhor avaliação e customização é indicado que o cliente entre em contato com nossos
+		consultores e informe sua necessidade.
+	</p>
+</div>
+<div class="modal-footer">
+	{{--<a class="btn btn-success" href="whatsapp://send?text=Chamando DonaRita!&phone=5598988148322" role="button">Chame a DonaRita</a>--}}
+	{{--<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>--}}
+	<div id="window-width-servicos">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	</div>
+</div>
+<script>
+    function sizeOfThings() {
+        if (document.body.clientWidth < 800) {
+            $("#window-width-servicos").append("<a class=\"btn btn-success\" target=\"_blank\" href=\"https://api.whatsapp.com/send?phone=5598988148322&text=Chamando%20Dona%20Rita\" role=\"button\">Chame a Dona Rita!</a>")
+        } else {
+            $("#window-width-servicos").append("<a class=\"btn btn-success\" target=\"_blank\" href=\"https://web.whatsapp.com/send?phone=5598988148322&text=Chamando%20Dona%20Rita\" role=\"button\">Chame a Dona Rita!</a>")
+        }
+    }
+    sizeOfThings();
+</script>

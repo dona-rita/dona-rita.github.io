@@ -1,0 +1,41 @@
+<div class="modal-header">
+	<h4 class="modal-title">Básico</h4>
+</div>
+<div class="modal-body">
+	<p>Indicado para residências e empresas de pequeno porta</p>
+	<p>A faxina básica é indicada para casas e apartamentos de até 3 quartos, leva de 6 a 8 horas.</p>
+	<p>Na faxina estão inclusos os serviços:</p>
+	<ul>
+		<li>Varrer toda a residência;</li>
+		<li>Vasculhar o teto e paredes;</li>
+		<li>Aspirar ( quando necessário);</li>
+		<li>Lavar banheiros;</li>
+		<li>Lavar cozinha (quando necessário);</li>
+		<li>Lavar as louças expostas na pia, enxugar e guardar;</li>
+		<li>
+			Limpeza interna de vidros e janelas; (somente até o alcance da mão ou com a utilização de
+			rodo limpa vidros. A limpeza externa de vidros e janelas em apartamentos deve ser realizado
+			por profissionais especializados para este fim);
+		</li>
+		<li>Recolher os sacos de lixo das lixeiras;</li>
+		<li>Repor os sacos de lixo;</li>
+		<li>Limpeza completa do piso;</li>
+		<li>Trocar roupas de cama.</li>
+	</ul>
+</div>
+<div class="modal-footer">
+	{{--<a class="btn btn-success" href="whatsapp://send?text=Chamando DonaRita!&phone=5598988148322" role="button">Chame a DonaRita</a>--}}
+	<div id="window-width-servicos">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	</div>
+</div>
+<script>
+    function sizeOfThings() {
+        if (document.body.clientWidth < 800) {
+            $("#window-width-servicos").append("<a class=\"btn btn-success\" target=\"_blank\" href=\"https://api.whatsapp.com/send?phone=5598988148322&text=Chamando%20Dona%20Rita\" role=\"button\">Chame a Dona Rita!</a>")
+        } else {
+            $("#window-width-servicos").append("<a class=\"btn btn-success\" target=\"_blank\" href=\"https://web.whatsapp.com/send?phone=5598988148322&text=Chamando%20Dona%20Rita\" role=\"button\">Chame a Dona Rita!</a>")
+        }
+    }
+    sizeOfThings();
+</script>

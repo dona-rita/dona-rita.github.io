@@ -1,0 +1,27 @@
+{
+  "name": "raleway-googlefont",
+  "license": "OFL",
+  "authors": [
+    "Multiple Designers"
+  ],
+  "homepage": "https://fonts.google.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google-fonts-bower/raleway-bower.git"
+  },
+  "description": "Raleway font",
+  "keywords": [
+    "font",
+    "SANS_SERIF"
+  ],
+  "_release": "1d9712831a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1d9712831acd94238a3f11dd9fc5f53bb13dced9"
+  },
+  "_source": "https://github.com/google-fonts-bower/raleway-bower.git",
+  "_target": "*",
+  "_originalSource": "raleway-googlefont",
+  "_direct": true
+}

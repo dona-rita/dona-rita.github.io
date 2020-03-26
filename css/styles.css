@@ -1,0 +1,840 @@
+.outline {
+	outline: 3px dashed red;
+}
+
+.modal-content {
+	padding: 8px;
+}
+
+.modal .btn {
+	border-radius: 90px;
+	border: 0px;
+	text-decoration: none;
+	border-radius: 90px;
+}
+
+.modal .btn-success {
+	background-color: #22bcb7;
+	color: white;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+}
+
+.shadow-2 {
+	-webkit-box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.2);
+}
+
+.flex-row-cc {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.btn-pill {
+	border-radius: 90px;
+	text-decoration: none;
+	border-radius: 90px;
+	padding: 8px 16px;
+	margin: 8px;
+}
+
+.menu-foto {
+	position: relative;
+	background-image: url(/images/bhh.png);
+	background-size: cover;
+	background-repeat: repeat-x;
+	font-family: RobotoRegular;
+}
+
+nav.menu {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+
+nav.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+nav.menu a.brand {
+	text-align: center;
+}
+
+div.menu {
+	display: flex;
+	flex-grow: 1;
+
+	align-items: center;
+	justify-content: flex-end;
+}
+
+div.menu a {
+	padding: 8px 16px;
+}
+
+div.register {
+	display: flex;
+}
+
+div.register a {
+	border: 1px solid white;
+	color: #22bcb7;
+	background-color: white;
+	margin: 0px 8px;
+}
+
+div.hero {
+	color: white;
+	font-family: RobotoRegular;
+	justify-content: flex-end;
+}
+
+div.hero h1 {
+	font-family: RobotoLight;
+}
+
+div.hero p {
+	font-family: RalewayLight;
+}
+
+div.whatsapp {}
+
+div.card {
+	background-color: white;
+	border-radius: 8px;
+
+	display: flex;
+	align-items: center;
+
+	width: 420px;
+	padding: 16px 16px 16px 24px;
+}
+
+div.card .content {
+	margin-bottom: 8px;
+	flex-grow: 1;
+	font-family: RalewayRegular;
+}
+
+div.card h3 {
+	color: #1fa800;
+	font-size: 18px;
+}
+
+div.card p {
+	font-size: 12px;
+	display: block;
+	margin-bottom: 16px;
+	font-family: RalewayLight;
+}
+
+div.card a[role=button] {
+	background-color: #1fa800;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 4px;
+}
+
+div.sobre {
+	z-index: 10000;
+
+	margin-top: 12vh;
+	
+	font-family: RalewayLight;
+}
+
+div.sobre img {
+	margin: 0px auto;
+	margin-bottom: 16px;
+}
+
+div.sobre p {
+	padding: 8px;
+	text-align: center;
+}
+
+div.servicos {
+	background-color: #eee;
+	
+	font-family: RalewayLight;
+}
+
+div.servicos img {
+	margin: 0px auto;
+	margin-bottom: 16px;
+}
+
+div.lista-servicos {
+	display: flex;
+	align-items: center;
+
+	list-style: none;
+	margin-top: 32px;
+}
+
+div.lista-servicos > div {
+	background-color: white;
+	padding: 32px 16px;
+	margin: 8px;
+	text-align: center;
+	border-radius: 8px;
+	height: 42vh;
+
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 23.5%;
+
+	position: relative;
+}
+
+div.lista-servicos > div:first-child {
+	padding-top: 48px;
+}
+
+div.lista-servicos .pop {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin-top: -8px;
+	padding: 8px 8px;	
+}
+
+div.lista-servicos .pop h6 {
+	background-color: #22bcb7;
+	color: white;
+	border-radius: 30px;
+	font-size: 11px;
+	font-family: RobotoLight;
+
+	margin: 0px 56px;
+}
+
+div.lista-servicos > div h4,
+div.lista-servicos > div p {
+	text-align: center;
+}
+
+div.lista-servicos > div h4 {
+	font-family: RalewayMedium;
+}
+
+div.lista-servicos > div p {
+	font-size: 12px;
+	font-family: RalewayLight;
+	min-height: 72px;
+}
+
+div.lista-servicos > div a.btn-pill {
+	background-color: #22bcb7;
+	color: white;
+}
+
+div.lista-servicos > div:first-child a.btn-pill {
+	background-color: #ff6f41;
+	color: white;
+}
+
+div.phone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: RalewaySemiBold;
+
+	background-color: #eee;
+	background-image: url(/images/phone-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	color: white;
+}
+
+div.phone > div {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+div.phone small {
+	display: block;
+	margin: 0px;
+	font-size: 22px;
+	color: white;
+}
+
+div.phone h2 {
+	font-size: 24px;
+	line-height: 26px;
+}
+
+div.phone p {
+	margin: 16px 0px;
+	color: #ccc;
+}
+
+div.phone img {
+	margin-right: 50px;
+}
+
+div.phone a.btn-pill {
+	text-transform: uppercase;
+	border: 3px solid #22bcb7;
+	margin: 8px 0px;
+	color: white;
+	font-family: RalewaySemiBold;
+}
+
+div.depoimentos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	font-family: RalewaySemiBold;
+
+	background-color: #eee;
+}
+
+div.carrossel {
+	display: flex;
+	flex-flow: row;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+/*div.carrossel .slide {*/
+div.carrossel-slide {
+	height: 300px;
+
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+
+	padding: 32px 112px;
+	text-align: center;
+}
+
+div.carrossel-slide img {
+	margin: 0 auto;
+}
+
+/*div.carrossel .fa {*/
+a.carousel-control {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background: #eee !important;
+}
+
+a.carousel-control .fa {
+	color: #999;
+	padding-bottom: 88px;
+}
+
+div.carrossel-slide p,
+div.carrossel-slide small {
+	color: #666;
+}
+
+div.carrossel-slide small {
+	display: block;
+}
+
+div.carrossel-slide p {
+	padding: 12px;
+}
+
+div.imprensa {
+	background-color: #eee;
+	background-image: url(/images/imprensa-bg.png);
+	background-repeat: repeat-x;
+}
+
+div.imprensa .logos {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-color: white;
+	margin: 0px 5vw;
+}
+
+div.imprensa .logos h5 {
+	text-transform: uppercase;
+	background-color: #22bcb7;
+	margin: 8px 0px;
+	color: white;
+	font-family: RalewaySemiBold;
+	padding: 8px 32px;
+	margin-top: -16px;
+	border-radius: 90px;
+}
+
+div.imprensa .newsletter {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-around;
+
+	border-top: 1px solid #1fa5a1;
+	margin: 32px 0px;
+	padding: 16px 0px;
+
+	font-family: RalewayRegular;
+}
+
+div.imprensa .newsletter form {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+div.imprensa .newsletter form input {
+	margin: 8px;
+}
+
+div.imprensa .newsletter form button {
+	padding: 8px 16px;
+	background-color: #f2cd5d;
+	border: 0px;
+	border-radius: 8px;
+}
+
+div.imprensa .newsletter h4,
+div.imprensa .newsletter small {
+	color: white;
+	font-family: RalewayRegular;
+}
+
+div.imprensa .newsletter small {
+	display: block;
+	font-family: RalewayLight;
+}
+
+div.rodape {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+
+	background-color: #333;
+
+	padding: 16px 0px;
+
+	color: #999;
+}
+
+div.contatos {
+	padding: 16px 0px;
+}
+
+div.rodape a,
+div.direitos a {
+	color: #999;
+}
+
+div.rodape i.fa {
+	color: #22bcb7;
+}
+
+div.rodape h4 {
+	line-height: 32px;
+	border-bottom: 3px solid #000;
+}
+
+div.rodape .contatos span {
+	margin: 8px;
+}
+
+div.direitos {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 16px 15vw;
+	background-color: #111;
+
+	color: #999;
+}
+
+@media screen and (max-width: 1023px) {
+	.menu-foto {
+		height: 41.5vh;
+	}
+
+	nav.menu {
+		margin-top: 10px;
+	}
+
+	div.hero {
+		text-align: center;
+		padding: 30px 60px;
+	}
+
+	div.hero h1 {
+		font-size: 28px;
+	}
+
+	div.whatsapp {
+		display: flex;
+		justify-content: center;
+	}
+
+	div.card {
+		width: 400px;
+	}
+
+	div.card img {
+		width: 90px;
+	}
+
+	div.sobre {
+		padding: 0px 54px;
+	}
+
+	div.servicos {
+		padding: 5%;
+	}
+
+	div.phone {
+		padding: 0% 5%;
+	}
+
+	div.depoimentos {
+		padding: 2% 12%;
+	}
+
+	div.imprensa {
+		padding: 2% 4%;
+	}
+
+	.toalhas {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	div.sobre {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+
+	nav.menu {
+		display: block;
+		text-align: center;
+	}
+
+	nav.menu a.brand img {
+		height: 48px;
+		width: auto;
+	}
+
+	div.menu-foto {
+		height: 46vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	div.menu {
+		justify-content: center;
+		padding: 8px;
+	}
+
+	div.register {
+		justify-content: center;
+	}
+
+	div.hero {
+		padding: 8px;
+	}
+
+	div.hero h1 {
+		font-size: 18px;
+	}
+
+	div.card img {
+		width: 64px;
+	}
+
+	div.lista-servicos {
+		flex-flow: row wrap;
+	}
+
+	div.lista-servicos > div {
+		width: 45%;
+		height: 52vh;
+	}
+
+	div.lista-servicos > div:first-child {
+		padding-top: 32px;
+	}
+
+	div.lista-servicos > div a.btn-pill {
+		font-size: 12px;
+	}
+
+	div.phone {
+		display: block;
+		text-align: center;
+	}
+
+	div.phone > div {
+		display: block;
+		padding: 24px;
+	}
+
+	div.phone img {
+		display: none;
+	}
+
+	div.phone p {
+		display: block;
+		margin-bottom: 24px;
+	}
+
+	div.logos div {
+		text-align: center;
+	}
+
+	div.depoimentos {
+		padding: 8% 4%;
+	}
+
+	div.carrossel-slide {
+		padding: 32px 16px;
+	}
+
+	.carrossel-slide {
+		z-index: 10000;
+	}
+
+	div.imprensa .newsletter {
+		display: block;
+		text-align: center;
+		border: 0px;
+	}
+
+	div.contatos {
+		text-align: center;
+	}
+
+	div.contatos span {
+		display: block;
+	}
+
+	div.direitos {
+		display: block;
+		text-align: center;
+	}
+
+	div.sobre {
+		margin-top: 12vh;
+	}
+
+	div.lista-servicos .pop h6 {
+		margin: 0px 16px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	div.sobre {
+		padding: 16px 0px;
+		margin-top: 24vh;
+	}
+
+	div.sobre > img {
+		height: 50px;
+	}
+
+	div.servicos > img {
+		height: 40px;
+	}
+
+	div.lista-servicos > div {
+		height: 60vh;
+		padding-bottom: 16px;
+	}
+
+	div.depoimentos > img {
+		height: 50px;
+	}
+
+	div.sobre p {
+		padding: 0px 32px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	div.sobre {
+		padding: 16px 0px;
+		margin-top: 28vh;
+	}
+
+	div.card {
+		padding-top: 8px;
+	}
+
+	div.card img {
+		display: none;
+	}
+
+	div.lista-servicos {
+		flex-flow: row wrap;
+	}
+
+	div.lista-servicos > div {
+		height: 64vh;
+		margin: 8px 4px;
+		padding-bottom: 4px;
+	}
+
+	div.lista-servicos > div a.btn-pill {
+		font-size: 9px;
+	}
+
+	div.logos img {
+		max-width: 250px;
+	}
+
+	div.phone > div {
+		padding: 16px 8px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	.menu-foto {
+		height: 75vh;
+	}
+
+	nav.menu {
+	  height: 10vh;
+	  margin-top: 4vh;
+	}
+
+	nav.menu a.brand {
+		padding: 0px 80px;
+	}
+
+	div.register {
+		padding: 0px 70px;
+	}
+
+	div.register .popover {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	div.register a:focus {
+		background-color: rgba(255,255,255,0.5);
+		color: white;
+	}
+
+	div.hero {
+		padding: 16px 40% 16px 96px;
+		margin-top: 10vh;
+		color: white;
+		font-family: RobotoRegular;
+		justify-content: flex-end;
+	}
+
+	div.hero h1 {
+		font-size: 40px;
+		font-family: RobotoLight;
+		line-height: 44px;
+	}
+
+	div.hero p {
+		line-height: 22px;
+		font-size: 14px;
+		font-family: RalewayLight;
+	}
+
+	.toalhas {
+		position: absolute;
+		bottom: -190px;
+		right: 70px;
+	}
+
+	div.whatsapp {
+		height: 20vh;
+		padding-left: 14vh;
+		padding-top: 16vh;
+	}
+
+	div.card {
+		width: 420px;
+		padding: 16px 16px 16px 24px;
+	}
+
+	div.card .content {
+		margin-bottom: 8px;
+		flex-grow: 1;
+		font-family: RalewayRegular;
+	}
+
+	div.card h3 {
+		color: #1fa800;
+		font-size: 18px;
+	}
+
+	div.card p {
+		font-size: 12px;
+		display: block;
+		margin-bottom: 16px;
+		font-family: RalewayLight;
+	}
+
+	div.card a[role=button] {
+		background-color: #1fa800;
+		color: white;
+		padding: 8px 16px;
+		border-radius: 4px;
+	}
+
+	div.sobre {
+		padding: 3% 31.8%;
+	}
+
+	div.servicos {
+		padding: 5% 20%;
+	}
+
+	div.phone {
+		padding: 0% 20%;
+	}
+
+	div.depoimentos {
+		padding: 2% 29%;
+	}
+
+	div.carrossel-slide {
+		width: 540px;
+	}
+
+	div.imprensa {
+		padding: 2% 20%;
+	}
+
+	div.lista-servicos > div:first-child {
+		height: 42vh;
+	}
+}
+
+@media screen and (max-height: 640px) {
+	.modal-body {
+	   height: 65vh;
+	   overflow-y: auto;
+	}
+}

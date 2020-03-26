@@ -1,0 +1,30 @@
+<div class="modal-header">
+	<h4 class="modal-title">Empresarial</h4>
+</div>
+<div class="modal-body">
+	<p>Faxina profissional para sua empresa a partir de R$ 65,00.</p>
+	<p>
+		Seja qual for o seu ramo de atividade, nós temos a solução em limpeza e organização, de
+		forma recorrente, os pagamentos podem ser realizados por mês, para melhor se adequar ao
+		seu fluxo de caixa. Para essa contratação que é personalizada é necessário pedir um
+		orçamento por um de nossos canais de venda, em especial o whatsapp DonaRita, tem
+		sempre um consultor pronto para atender!
+	</p>
+</div>
+<div class="modal-footer">
+	{{--<a class="btn btn-success" href="whatsapp://send?text=Chamando DonaRita!&phone=5598988148322" role="button">Chame a DonaRita</a>--}}
+	{{--<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>--}}
+	<div id="window-width-servicos">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+	</div>
+</div>
+<script>
+    function sizeOfThings() {
+        if (document.body.clientWidth < 800) {
+            $("#window-width-servicos").append("<a class=\"btn btn-success\" target=\"_blank\" href=\"https://api.whatsapp.com/send?phone=5598988148322&text=Chamando%20Dona%20Rita\" role=\"button\">Chame a Dona Rita!</a>")
+        } else {
+            $("#window-width-servicos").append("<a class=\"btn btn-success\" target=\"_blank\" href=\"https://web.whatsapp.com/send?phone=5598988148322&text=Chamando%20Dona%20Rita\" role=\"button\">Chame a Dona Rita!</a>")
+        }
+    }
+    sizeOfThings();
+</script>

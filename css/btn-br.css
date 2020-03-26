@@ -1,0 +1,31 @@
+.btn span.breaker {
+    display: block;
+    text-align: center;
+}
+
+div.thumbnail {
+	height: 65vh;
+}
+
+@media screen and (max-width: 375px) {
+	div.caption {
+		height: 30vh;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	div.caption {
+		height: 35vh;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	div.thumbnail {
+		height: 73vh;
+	}
+
+	div.caption {
+		height: 40vh;
+	}
+}
